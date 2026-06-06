@@ -19,19 +19,26 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/5884fed6-f469-48cf-aec3-eacf4d7faed4/files/023efcba-14e3-421d-b82d-e3e138e60362.jpg"
+          alt="Luxury massage salon"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/40" />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          РАССЛАБЬСЯ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Профессиональный массаж для тела и души — почувствуй разницу с первого прикосновения
         </p>
+        <a
+          href="#contact"
+          className="inline-block mt-8 px-8 py-3 border border-white text-white uppercase text-sm tracking-wide hover:bg-white hover:text-black transition-all duration-300"
+        >
+          Записаться
+        </a>
       </div>
     </div>
   );
