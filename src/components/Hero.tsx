@@ -19,8 +19,8 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="https://cdn.poehali.dev/projects/5884fed6-f469-48cf-aec3-eacf4d7faed4/bucket/821448ef-2895-4569-8624-75e4125b03eb.jpeg"
-          alt="Massage therapist"
+          src="https://cdn.poehali.dev/projects/5884fed6-f469-48cf-aec3-eacf4d7faed4/files/023efcba-14e3-421d-b82d-e3e138e60362.jpg"
+          alt="Luxury massage salon"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/40" />
